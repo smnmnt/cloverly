@@ -1,0 +1,212 @@
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+.container {
+  max-width: 1100px;
+  width: 100%;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.footer {
+  background-color: #193844;
+  padding-top: 60px;
+}
+.footer__container {
+  display: flex;
+  flex-direction: column;
+}
+.footer__upper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.footer__upper__box__login {
+  max-width: 238px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer__upper__box__login__api {
+  padding: 17px 40px;
+  background-color: #00CA90;
+  border-radius: 50px;
+}
+.footer__middler {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #275668;
+  border-bottom: 1px solid #275668;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.footer__middler__box {
+  display: flex;
+  flex-direction: column;
+  max-width: 150px;
+  width: 100%;
+}
+.footer__middler__box__title {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 13px;
+  line-height: 17px;
+  letter-spacing: 2.6px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+.footer__middler__box__no__title {
+  padding-top: 41px;
+}
+.footer__middler__box__link {
+  font-size: 15px;
+  line-height: 19px;
+  margin-bottom: 17px;
+}
+.footer__footer {
+  padding-top: 46px;
+  padding-bottom: 46px;
+}
+
+.blog__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 76px;
+  padding-bottom: 150px;
+}
+.blog__paragraph {
+  color: #00CA90;
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 9px;
+}
+.blog__headlight {
+  color: #013A51;
+  font-size: 42px;
+  line-height: 56px;
+  margin-bottom: 62px;
+}
+.blog__button {
+  color: #013A51;
+  font-size: 15px;
+  padding: 17px 103px;
+  border: 1px solid #00CA90;
+  border-radius: 50px;
+}
+
+.trial {
+  padding-bottom: 75px;
+  padding-top: 150px;
+}
+.trial__box {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #F2F4E8 217.84%), #193844;
+  border-radius: 50px;
+  padding-top: 74px;
+  padding-bottom: 61px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.trial__box__headlight {
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: normal;
+}
+.trial__box__paragraph {
+  max-width: 387px;
+  width: 100%;
+  font-size: 21px;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: 39px;
+}
+.trial__box__button {
+  padding: 17px 88px;
+  background-color: #00CA90;
+  border-radius: 50px;
+}
+
+.partners {
+  background: url("../img/partners/partners.png") no-repeat;
+}
+.partners__container {
+  padding-left: 530px;
+}
+.partners__box {
+  max-width: 560px;
+  width: 100%;
+  padding-top: 81px;
+  padding-bottom: 81px;
+}
+.partners__box__spotlight {
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 15px;
+  color: #00CA90;
+}
+.partners__box__paragraph {
+  color: rgba(1, 58, 81, 0.59);
+  font-size: 21px;
+  line-height: 30px;
+  margin-bottom: 42px;
+}
+.partners__box__paragraph__span {
+  color: #013A51;
+  font-size: 21px;
+  line-height: 30px;
+}
+.partners__box__quotation {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 52px;
+  color: #00CA90;
+}
+.partners__box__quote {
+  color: #013A51;
+  font-size: 25px;
+  line-height: 34px;
+  margin-bottom: 20px;
+}
+.partners__box__quote__full__link {
+  font-size: 15px;
+  line-height: 20px;
+  color: #013A51;
+  margin-bottom: 40px;
+}
+.partners__box__looker__box {
+  display: flex;
+  justify-content: space-between;
+  max-width: 387px;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 42px;
+}
+.partners__box__looker__box__logo {
+  max-height: 25px;
+  height: 100%;
+}
+.partners__box__looker__box__name__box__name {
+  font-size: 14px;
+  line-height: 20px;
+  color: #013A51;
+}
+.partners__box__looker__box__name__box__position {
+  font-size: 13px;
+}
+.partners__box__button {
+  padding: 17px 128px;
+  color: #013A51;
+  border: 2px solid #00CA90;
+  border-radius: 50px;
+}/*# sourceMappingURL=style.css.map */
